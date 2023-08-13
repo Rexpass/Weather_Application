@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Application</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="img/clouds.png">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Weather Application</h1>
+    <div class="front-page">
+      <img src="img/clouds.png">
+      <p>Welcome to our weather app! Enter a city name to get the current weather.</p>
+    </div>
+
+    <div class="input-container">
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button onclick="getWeather()">Search</button>
+    </div>
+
+    <div class="weather-container">
+
+        <div class="icon-container">
+          <!-- <img src="img/location.png" alt="Location Icon"> -->
+        </div>
+        <p id="location"></p>
+        <div class="icon-container">
+          <!-- <img src="img/temp.png" alt="Temperature Icon"> -->
+        </div>
+        <p id="temperature"></p>
+        <div class="icon-container">
+          <!-- <img src="img/desc.png" alt="Description Icon"> -->
+        </div>
+        <p id="description"></p>
+        <div id="weather-icon"></div>
+        <div id="search-result-icon"></div>
+      
+    </div>
+    <footer class="footer"> &COPY; 2023 <span> RexoSystems </span>  </footer>
+  </div>
+
+  
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
