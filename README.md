@@ -18,7 +18,7 @@ To get started with the Weather Application, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in a web browser.
-3. Enter a city name in the input field and click the "Get Weather" button.
+3. Enter a city name in the input field and click the "Search" button.
 
 ## Features
 
