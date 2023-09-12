@@ -1,5 +1,7 @@
+/* Import the 'Poppins' font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* Global styles for the entire page */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f0f0f0;
@@ -11,7 +13,8 @@ body {
     background: url("img/sea.jpg") no-repeat center center fixed;
     background-size: cover;
   }
-  
+
+/* Styles for the main content container */
   .container {
     width: 80%;
     max-width: 400px;
@@ -23,10 +26,12 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 
+/* Center-align the h1 element inside the container */
   .container h1{
     text-align: center;
   }
 
+/* Styles for input container */
   .input-container {
     display: flex;
     flex-direction: column;
@@ -43,7 +48,8 @@ body {
     margin-right: 16px;
     font-size: 10px;
   }
-  
+
+/* Styles for input elements */
   input {
     width: 100%;
     border: 1px solid #0c0c0c;
@@ -57,7 +63,8 @@ body {
     margin-right: 15px;
     font-size: 18px;
   }
-  
+
+/* Styles for the button element */
   button {
     width: 30%;
     padding: 8px 9px;
@@ -68,11 +75,13 @@ body {
     cursor: pointer;
   }
 
+/* Styles for the weather container */
 .weather-container {
   text-align: center;
   position: relative;
 }
 
+/* Styles for icon containers */
 .icon-container {
   display: inline-block;
   width: 30px;
@@ -81,48 +90,55 @@ body {
   margin-right: 10px;
 }
 
+/* Styles for icon images inside containers */
 .icon-container img {
   display: flex;
   max-width: 70%;
   max-height: 70%;
 }
 
+/* Styles for paragraph elements */
 p {
     margin: 5px 0;
     font-size: 18px;
 }
 
+/* Styles for the front-page section */
 .front-page {
   text-align: center;
   margin-bottom: 30px;
 }
 
+/* Styles for images within the front-page section */
 .front-page img {
   max-width: 30%;
   height: 30;
   border-radius: 5px;
 }
 
+/* Styles for the footer section */
 .footer{
   font-size: 1rem;
   text-align: center;
   color:#000000;
 }
 
+/* Styles for a specific span within the footer section */
 .footer span{
-  color:var(--main-color);
+  color:var(--main-color); /* Set text color using a variable */
 }
 
-
+/* Media query for screens with a maximum width of 480px */
 @media screen and (max-width: 480px) {
   .container {
-    padding: 10px;
+    padding: 10px; /* Adjust padding for smaller screens */
   }
 
   input, button {
-    width: 100%;
+    width: 100%; /* Set the width to 100% for smaller screens */
   }
 
+   /* Adjust font size for paragraphs within the front-page section */
   .front-page p {
     font-size: 16px;
   }
