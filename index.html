@@ -4,23 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather Application</title>
+  <!-- Include the external CSS file for styling -->
   <link rel="stylesheet" href="styles.css">
+  <!-- Set the favicon for the webpage -->
   <link rel="icon" href="img/clouds.png">
 </head>
 <body>
 
   <div class="container">
+    <!-- Main heading of the weather application -->
     <h1>Weather Application</h1>
+    <!-- Front-page section with an introduction -->
     <div class="front-page">
+       <!-- Image logo for the app -->
       <img src="img/clouds.png">
+      <!-- Introduction text -->
       <p>Welcome to our weather app! Enter a city name to get the current weather.</p>
     </div>
 
+    <!-- Input container for city input and search button -->
     <div class="input-container">
       <input type="text" id="cityInput" placeholder="Enter city name">
+      <!-- Button to trigger weather search -->
       <button onclick="getWeather()">Search</button>
     </div>
 
+    <!-- Container to display weather information -->
     <div class="weather-container">
 
         <div class="icon-container">
@@ -39,9 +48,11 @@
         <div id="search-result-icon"></div>
       
     </div>
+    <!-- Footer section with copyright information -->
     <footer class="footer"> &COPY; 2023 <span> RexoSystems </span>  </footer>
   </div>
 
+  <!-- Include the external JavaScript file for functionality -->
   <script src="script.js"></script>
 
 </body>
