@@ -1,3 +1,4 @@
+<img width="932" alt="Screenshot 2025-01-02 105555" src="https://github.com/user-attachments/assets/d043cdef-7bde-49cb-a9c2-063d8f13c49f" />
 # Weather Application
 
 Welcome to the Weather Application! This simple web app allows users to retrieve and display current weather information for a specific city using the OpenWeatherMap API.
